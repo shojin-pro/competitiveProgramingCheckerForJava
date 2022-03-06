@@ -31,7 +31,7 @@ public class VerifyAnswer {
                 for(String v : text.split(" ")){
                     if(!v.equals(arr.get(index))){
                         notCorrect = true;
-                        System.err.println("outFile = [" + outPath+file + "], correctFile = [" + correctPath+file + "], index = [" + index + "], answer = [" + arr.get(index) + "], output = [" + v + "]");
+                        System.err.println("outFile = [" + outPath+file + "], correctFile = [" + correctPath+file + "], index = [" + index + "], correct = [" + v + "], output = [" + arr.get(index) + "]");
                     }
                     index++;
                 }
